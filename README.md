@@ -22,45 +22,52 @@ I build local-first tools: things that run on your own machine, keep your data o
 
 ## Projects
 
-Each repository is a numbered sheet (`U1`, `U2`, ...) of the same datasheet as my [personal site](https://github.com/S-k404/portfolio).
+Each repository is a numbered sheet (`U1`, `U2`, ...) of the same datasheet as my [personal site](https://portfolio-5nj.pages.dev/). Each sheet's page links to the previous and next one.
 
 ### Local AI and audio
 
 | Sheet | Project | What it does |
 | --- | --- | --- |
 | `U1` | [**kokoro-audiobook-studio**](https://github.com/S-k404/kokoro-audiobook-studio) | Turns textbooks and technical PDFs into chaptered M4B audiobooks, fully local on Apple Silicon (Kokoro TTS, Metal GPU). |
-| `U7` | [**odysseus-speech-tools**](https://github.com/S-k404/odysseus-speech-tools) | Local speech engine (Kokoro-82M TTS + Faster-Whisper STT), document narrators and audio pipelines for the Odysseus workspace. |
+| `U6` | [**odysseus-notion-skill**](https://github.com/S-k404/odysseus-notion-skill) | A read-only Notion tool and skill for the Odysseus local-model agent: search and read Notion live, nothing cached to disk. |
+| `U7` | [**odysseus-speech-tools**](https://github.com/S-k404/odysseus-speech-tools) | A local OpenAI-compatible speech engine for Odysseus (Kokoro TTS + Faster-Whisper STT), document narrators and a PDF-to-audiobook converter. |
 | `U8` | [**odysseus-image-tools**](https://github.com/S-k404/odysseus-image-tools) | MCP server and CLI for local image inpainting and region detection, for Odysseus. |
-| `U6` | [**odysseus-notion-skill**](https://github.com/S-k404/odysseus-notion-skill) | A read-only Notion tool/skill for the Odysseus local-model agent: search and read Notion live, nothing cached to disk. |
 
 ### Files and data
 
 | Sheet | Project | What it does |
 | --- | --- | --- |
-| `U2` | [**notion-better-export**](https://github.com/S-k404/notion-better-export) | High-fidelity Notion workspace exporter. Preserves folder hierarchy, Obsidian Bases and linked CSV databases instead of Notion's flat default export. |
-| `U4` | [**better-vert**](https://github.com/S-k404/better-vert) | Local-first universal file converter: 250+ formats via FFmpeg/ImageMagick, plus anything-to-Markdown via MarkItDown, OCR and Poppler. Web UI + CLI in one Docker container. |
-| `U3` | [**music-tools**](https://github.com/S-k404/music-tools) | A CLI (`mt`) for curating a local music library: album art repair, artist art and lyrics, duplicate detection, misidentified tag fixes, library stats. |
-| `U9` | [**grab**](https://github.com/S-k404/grab) | Fast parallel batch downloader for video streams, images and files (`yt-dlp` + `ffmpeg`) with Web GUI, CLI and browser extension. |
+| `U2` | [**notion-better-export**](https://github.com/S-k404/notion-better-export) | Exports a whole Notion workspace into Obsidian: real folders, linked CSVs and Bases that mirror your Notion views. |
+| `U3` | [**music-tools**](https://github.com/S-k404/music-tools) | A CLI (`mt`) for cleaning up a local music library: cover and artist art, lyrics, wrong tags, duplicates, unknown songs (Shazam) and messy folders. Every tool previews first. |
+| `U4` | [**better-vert**](https://github.com/S-k404/better-vert) | Local-first universal converter: 250+ formats through FFmpeg and ImageMagick, anything to Markdown, PDF merge and split. Web UI and CLI in one Docker container. |
+| `U9` | [**grab**](https://github.com/S-k404/grab) | Fast parallel batch downloader for videos, images and files (`yt-dlp`, `gallery-dl`, `aria2c`) with a CLI, web GUI, Mac app and browser extension, plus a headless-browser fallback for pages they don't know. |
 
 ### Hardware
 
 | Sheet | Project | What it does |
 | --- | --- | --- |
-| `U16` | [**heater-driver-v4**](https://github.com/S-k404/heater-driver-v4) | 12 V / 100 W through-hole PCB heater driver with over-current and over-temperature protection and an assembly placement guide. |
-| `U17` | [**solder-reflow-pad**](https://github.com/S-k404/solder-reflow-pad) | KiCad solder reflow hotplate pad with a custom artistic silkscreen layer. |
-| `U18` | [**pi5-homelab-rack**](https://github.com/S-k404/pi5-homelab-rack) | Modular 3D-printed 9U rack ecosystem and design scripts for a Raspberry Pi 5. |
-| `U15` | [**esp32-sensor-probe**](https://github.com/S-k404/esp32-sensor-probe) | ESP32 and Arduino environmental sensor probes with ST7789 IPS and OLED support, in C++ and MicroPython. |
+| `U15` | [**esp32-sensor-probe**](https://github.com/S-k404/esp32-sensor-probe) | ESP32 + BME280 probe with a colour IPS screen and four display modes, plus an Arduino Uno DHT22 + OLED weather station. |
+| `U16` | [**heater-driver-v4**](https://github.com/S-k404/heater-driver-v4) | 12 V / 100 W through-hole PCB heater driver with latching over-current and over-temperature protection, a placement guide and a simulation. |
+| `U17` | [**solder-reflow-pad**](https://github.com/S-k404/solder-reflow-pad) | KiCad hotplate PCB: a copper-spiral heater with an ATtiny1614 controller, an OLED, buttons and a buzzer. |
+| `U18` | [**pi5-homelab-rack**](https://github.com/S-k404/pi5-homelab-rack) | A printed 10-inch, 9U mini rack for a Raspberry Pi 5, a 7-inch screen and a gateway, with every CAD and print file. |
 
 ### Apps and terminal
 
 | Sheet | Project | What it does |
 | --- | --- | --- |
-| `U10` | [**aether-7**](https://github.com/S-k404/aether-7) | Cyberpunk telemetry HUD and kiosk monitor for Raspberry Pi 5 + 7-inch displays, with Hailo-8 NPU and Apple Silicon metrics. |
-| `U11` | [**flight-live**](https://github.com/S-k404/flight-live) | Native iOS & macOS flight tracking with Dynamic Island, Live Activities and Notion flight import. |
-| `U12` | [**study-copilot**](https://github.com/S-k404/study-copilot) | Native macOS menu bar study copilot with screen-region OCR, an explainer engine and a local offline practice sandbox. |
-| `U5` | [**music-visualiser**](https://github.com/S-k404/music-visualiser) | Two visualisers, one repo: a macOS terminal app with real-time ASCII/pixel rendering, and ESP32 + OLED firmware showing a live spectrum over Bluetooth. |
+| `U5` | [**music-visualiser**](https://github.com/S-k404/music-visualiser) | Two visualisers: a macOS terminal app with real-time ASCII/pixel album art, waveform and spectrum, and ESP32 + OLED firmware that shows a live spectrum over Bluetooth. |
+| `U10` | **aether-7** (private) | Cyberpunk telemetry HUD and kiosk monitor for Raspberry Pi 5 + 7-inch displays, with Hailo-8 NPU and Apple Silicon metrics. |
+| `U11` | [**flight-live**](https://github.com/S-k404/flight-live) | iPhone flight tracker with a Flighty-style Live Activity and Dynamic Island, a Home Screen widget, Siri and Shortcuts, boarding passes, and Notion, calendar and Flighty import. |
+| `U12` | [**study-copilot**](https://github.com/S-k404/study-copilot) | macOS menu bar study copilot: select part of your screen or copy text and get a step-by-step explanation from Claude, Gemini or an offline mock engine, plus a local practice quiz. |
 | `U13` | [**fetch3d**](https://github.com/S-k404/fetch3d) | 3D rotating Apple-logo system fetch for macOS, in zero-dependency pure C using Mach and sysctl APIs. |
-| `U14` | [**ascii-dino**](https://github.com/S-k404/ascii-dino) | Chrome Dino endless runner in the terminal, written in Python `curses` and containerized with Docker. |
+| `U14` | [**ascii-dino**](https://github.com/S-k404/ascii-dino) | Chrome Dino endless runner in the terminal (Python `curses`, Docker), with three difficulties and auto-play. |
+
+### Forks I contribute to
+
+| Project | What it is |
+| --- | --- |
+| [**learnharness**](https://github.com/S-k404/learnharness) | A fork of [amosblomqvist/learnharness](https://github.com/amosblomqvist/learnharness), an agent harness for learning difficult things. My fork adds Docker support, reading PowerPoint decks, a text-first fallback for PDFs, and chat compaction and connection retries for local models. |
+| [**odysseus**](https://github.com/S-k404/odysseus) | A fork of [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus), the self-hosted AI workspace that the Odysseus tools above plug into. |
 
 ## Notes
 
