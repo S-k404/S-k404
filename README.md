@@ -41,6 +41,7 @@ Each repository is a numbered sheet (`U1`, `U2`, ...) of the same datasheet as m
 | `U3` | [**music-tools**](https://github.com/S-k404/music-tools) | A CLI (`mt`) for cleaning up a local music library: cover and artist art, lyrics, wrong tags, duplicates, unknown songs (Shazam) and messy folders. Every tool previews first. |
 | `U4` | [**better-vert**](https://github.com/S-k404/better-vert) | Local-first universal converter: 250+ formats through FFmpeg and ImageMagick, anything to Markdown, PDF merge and split. Web UI and CLI in one Docker container. |
 | `U9` | [**grab**](https://github.com/S-k404/grab) | Fast parallel batch downloader for videos, images and files (`yt-dlp`, `gallery-dl`, `aria2c`) with a CLI, web GUI, Mac app and browser extension, plus a headless-browser fallback for pages they don't know. |
+| `U21` | [**openfoam-mac-suite**](https://github.com/S-k404/openfoam-mac-suite) | Turnkey OpenFOAM v2512 CFD environment for Apple Silicon and Intel Macs, with native ParaView, live convergence dashboard and aerodynamics toolkit. |
 
 ### Hardware
 
@@ -50,15 +51,17 @@ Each repository is a numbered sheet (`U1`, `U2`, ...) of the same datasheet as m
 | `U16` | [**heater-driver-v4**](https://github.com/S-k404/heater-driver-v4) | 12 V / 100 W through-hole PCB heater driver with latching over-current and over-temperature protection, a placement guide and a simulation. |
 | `U17` | [**solder-reflow-pad**](https://github.com/S-k404/solder-reflow-pad) | KiCad hotplate PCB: a copper-spiral heater with an ATtiny1614 controller, an OLED, buttons and a buzzer. |
 | `U18` | [**pi5-homelab-rack**](https://github.com/S-k404/pi5-homelab-rack) | A printed 10-inch, 9U mini rack for a Raspberry Pi 5, a 7-inch screen and a gateway, with every CAD and print file. |
+| `U23` | [**card-wallet**](https://github.com/S-k404/card-wallet) | Minimalist mechanical card wallet plate designed as an 85.6 × 54.0 mm FR-4 printed circuit board in KiCad. |
 
 ### Apps and terminal
 
 | Sheet | Project | What it does |
 | --- | --- | --- |
 | `U5` | [**music-visualiser**](https://github.com/S-k404/music-visualiser) | Two visualisers: a macOS terminal app with real-time ASCII/pixel album art, waveform and spectrum, and ESP32 + OLED firmware that shows a live spectrum over Bluetooth. |
-| `U10` | **aether-7** (private) | Cyberpunk telemetry HUD and kiosk monitor for Raspberry Pi 5 + 7-inch displays, with Hailo-8 NPU and Apple Silicon metrics. |
+| `U10` | [**aether-7**](https://github.com/S-k404/aether-7) | Cyberpunk telemetry HUD and kiosk monitor for Raspberry Pi 5 + 7-inch displays, with Hailo-8 NPU and Apple Silicon metrics. |
 | `U11` | [**flight-live**](https://github.com/S-k404/flight-live) | iPhone flight tracker with a Flighty-style Live Activity and Dynamic Island, a Home Screen widget, Siri and Shortcuts, boarding passes, and Notion, calendar and Flighty import. |
 | `U12` | [**study-copilot**](https://github.com/S-k404/study-copilot) | macOS menu bar study copilot: select part of your screen or copy text and get a step-by-step explanation from Claude, Gemini or an offline mock engine, plus a local practice quiz. |
+| `U19` | [**mc-server-manager**](https://github.com/S-k404/mc-server-manager) | Local Minecraft server manager (`mc` CLI and Textual TUI) with automatic world backups, Docker/tmux runtimes and VPN port-forwarding diagnostics. |
 | `U13` | [**fetch3d**](https://github.com/S-k404/fetch3d) | 3D rotating Apple-logo system fetch for macOS, in zero-dependency pure C using Mach and sysctl APIs. |
 | `U14` | [**ascii-dino**](https://github.com/S-k404/ascii-dino) | Chrome Dino endless runner in the terminal (Python `curses`, Docker), with three difficulties and auto-play. |
 
