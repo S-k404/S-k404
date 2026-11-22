@@ -31,7 +31,6 @@ Each repository is a numbered sheet (`U1`, `U2`, ...) of the same datasheet as m
 | `U1` | [**kokoro-audiobook-studio**](https://github.com/S-k404/kokoro-audiobook-studio) | Turns textbooks and technical PDFs into chaptered M4B audiobooks, fully local on Apple Silicon (Kokoro TTS, Metal GPU). |
 | `U6` | [**odysseus-notion-skill**](https://github.com/S-k404/odysseus-notion-skill) | A read-only Notion tool and skill for the Odysseus local-model agent: search and read Notion live, nothing cached to disk. |
 | `U7` | [**odysseus-speech-tools**](https://github.com/S-k404/odysseus-speech-tools) | A local OpenAI-compatible speech engine for Odysseus (Kokoro TTS + Faster-Whisper STT), document narrators and a PDF-to-audiobook converter. |
-| `U8` | [**odysseus-image-tools**](https://github.com/S-k404/odysseus-image-tools) | MCP server and CLI for local image inpainting and region detection, for Odysseus. |
 
 ### Files and data
 
@@ -58,7 +57,6 @@ Each repository is a numbered sheet (`U1`, `U2`, ...) of the same datasheet as m
 | Sheet | Project | What it does |
 | --- | --- | --- |
 | `U5` | [**music-visualiser**](https://github.com/S-k404/music-visualiser) | Two visualisers: a macOS terminal app with real-time ASCII/pixel album art, waveform and spectrum, and ESP32 + OLED firmware that shows a live spectrum over Bluetooth. |
-| `U10` | [**aether-7**](https://github.com/S-k404/aether-7) | Cyberpunk telemetry HUD and kiosk monitor for Raspberry Pi 5 + 7-inch displays, with Hailo-8 NPU and Apple Silicon metrics. |
 | `U11` | [**flight-live**](https://github.com/S-k404/flight-live) | iPhone flight tracker with a Flighty-style Live Activity and Dynamic Island, a Home Screen widget, Siri and Shortcuts, boarding passes, and Notion, calendar and Flighty import. |
 | `U12` | [**study-copilot**](https://github.com/S-k404/study-copilot) | macOS menu bar study copilot: select part of your screen or copy text and get a step-by-step explanation from Claude, Gemini or an offline mock engine, plus a local practice quiz. |
 | `U19` | [**mc-server-manager**](https://github.com/S-k404/mc-server-manager) | Local Minecraft server manager (`mc` CLI and Textual TUI) with automatic world backups, Docker/tmux runtimes and VPN port-forwarding diagnostics. |
